@@ -1,7 +1,6 @@
 const express = require("express");
 const bodyparser = require("body-parser");
 const Tours = require("./controllers/tourCont");
-const Tour = require("./models/tourModel");
 
 const app = express();
 
